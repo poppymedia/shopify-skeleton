@@ -1,7 +1,7 @@
 <h1 align="center" style="position: relative;">
   Shopify Skeleton Theme
 </h1>
-<h2 align="center" style="position: relative;">
+<h2 align="center" style="position: relative; border: none;">
   Poppy Media Version
 </h2>
 A minimal, carefully structured Shopify theme designed to help you quickly get started. Designed with modularity, maintainability, and Shopify's best practices in mind.
