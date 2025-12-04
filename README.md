@@ -1,5 +1,5 @@
 <h1 align="center" style="position: relative;">
-  Shopify Skeleton Theme | Poppy Media Version
+  Shopify Skeleton Theme <span style="display: block; font-size: 80%">Poppy Media Version</span>
 </h1>
 
 A minimal, carefully structured Shopify theme designed to help you quickly get started. Designed with modularity, maintainability, and Shopify's best practices in mind.
