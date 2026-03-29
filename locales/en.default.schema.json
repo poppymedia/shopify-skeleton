@@ -31,7 +31,11 @@
     "sidebar": "Sidebar",
     "text": "Text",
     "theme": "Theme",
-    "typography": "Typography"
+    "typography": "Typography",
+    "main_font": "Body",
+    "heading_font": "Heading",
+    "subheading_font": "Subheading",
+    "primary_fallback": "Primary"
   },
   "labels": {
     "alignment": "Alignment",
@@ -47,7 +51,22 @@
     "page_width": "Page width",
     "show_payment_icons": "Show payment icons",
     "text_style": "Text style",
-    "text": "Text"
+    "text": "Text",
+    "custom_main_font_url": "URL",
+    "custom_main_font_name": "Name",
+    "custom_heading_font_url": "URL",
+    "custom_heading_font_name": "Name",
+    "custom_subheading_font_url": "URL",
+    "custom_subheading_font_name": "Name"
+  },
+  "info": {
+    "custom_main_font_url_info": "URL of body .woff2 font file",
+    "custom_main_font_name_info": "font-family name for body font",
+    "custom_heading_font_url_info": "URL of heading .woff2 font file",
+    "custom_heading_font_name_info": "font-family name for heading font",
+    "custom_subheading_font_url_info": "URL of subheading .woff2 font file",
+    "custom_subheading_font_name_info": "font-family name for subheading font",
+    "primary_fallback_info": "Web font or fallback font"
   },
   "options": {
     "alignment": {
@@ -71,6 +90,6 @@
       "title": "Title",
       "subtitle": "Subtitle",
       "normal": "Normal text"
-    },
+    }
   }
 }

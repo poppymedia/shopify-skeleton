@@ -57,6 +57,14 @@ h6 {
   overflow-wrap: break-word;
 }
 
+h1, b, strong {
+  font-family: var(--font-heading--family);
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: var(--font-subheading--family);
+}
+
 p:empty {
   display: none;
 }
@@ -77,6 +85,20 @@ body {
   background-color: var(--color-background);
   color: var(--color-foreground);
 }
+
+
+/** Shopify Privacy Banner overrides **/
+.shopify-pc__banner__dialog h2,
+.shopify-pc__banner__dialog .shopify-pc__banner__title {
+  font-family: var(--font-subheading--family) !important;
+  font-weight: var(--font-primary--weight) !important;
+}
+.shopify-pc__banner__dialog body,
+.shopify-pc__banner__dialog p,
+.shopify-pc__banner__dialog button {
+  font-family: var(--font-primary--family) !important;
+}
+
 
 /** Section layout utilities */
 

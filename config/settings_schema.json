@@ -18,7 +18,59 @@
         "type": "font_picker",
         "id": "type_primary_font",
         "default": "work_sans_n4",
-        "label": "t:general.primary"
+        "label": "t:general.primary_fallback"
+      },
+      {
+        "type": "paragraph",
+        "content": "t:info.primary_fallback_info"
+      },
+      {
+        "type": "header",
+        "content": "t:general.main_font"
+      },
+      {
+        "type": "text",
+        "id": "custom_main_font_url",
+        "label": "t:labels.custom_main_font_url",
+        "info": "t:info.custom_main_font_url_info"
+      },
+      {
+        "type": "text",
+        "id": "custom_main_font_name",
+        "label": "t:labels.custom_main_font_name",
+        "info": "t:info.custom_main_font_name_info"
+      },
+      {
+        "type": "header",
+        "content": "t:general.heading_font"
+      },
+      {
+        "type": "text",
+        "id": "custom_heading_font_url",
+        "label": "t:labels.custom_heading_font_url",
+        "info": "t:info.custom_heading_font_url_info"
+      },
+      {
+        "type": "text",
+        "id": "custom_heading_font_name",
+        "label": "t:labels.custom_heading_font_name",
+        "info": "t:info.custom_heading_font_name_info"
+      },
+      {
+        "type": "header",
+        "content": "t:general.subheading_font"
+      },
+      {
+        "type": "text",
+        "id": "custom_subheading_font_url",
+        "label": "t:labels.custom_subheading_font_url",
+        "info": "t:info.custom_subheading_font_url_info"
+      },
+      {
+        "type": "text",
+        "id": "custom_subheading_font_name",
+        "label": "t:labels.custom_subheading_font_name",
+        "info": "t:info.custom_subheading_font_name_info"
       }
     ]
   },

@@ -16,6 +16,20 @@
       {% comment %} Preload the base font variant for initial page render {% endcomment %}
       {{ settings.type_primary_font | font_url | preload_tag: as: 'font', crossorigin: 'anonymous' }}
     {% endunless %}
+    
+    {% comment %} Custom Font Preload - High Priority for CWV {% endcomment %}
+    {% comment %} Custom Font Preloads {% endcomment %}
+    {%- if settings.custom_main_font_url != blank -%}
+      <link rel="preload" href="{{ settings.custom_main_font_url | strip }}" as="font" type="font/woff2" crossorigin>
+    {%- endif -%}
+
+    {%- if settings.custom_heading_font_url != blank -%}
+      <link rel="preload" href="{{ settings.custom_heading_font_url | strip }}" as="font" type="font/woff2" crossorigin>
+    {%- endif -%}
+
+    {%- if settings.custom_subheading_font_url != blank -%}
+      <link rel="preload" href="{{ settings.custom_subheading_font_url | strip }}" as="font" type="font/woff2" crossorigin>
+    {%- endif -%}
 
     {% # Load and preload the critical CSS %}
     {{ 'critical.css' | asset_url | stylesheet_tag: preload: true }}
