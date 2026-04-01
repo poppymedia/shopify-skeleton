@@ -18,10 +18,20 @@
     {% endunless %}
 
     {% # Load and preload the critical CSS %}
-    {{ 'critical.css' | asset_url | stylesheet_tag: preload: true }}
+    {% comment %} {{ 'critical.css' | asset_url | stylesheet_tag: preload: true }} {% endcomment %}
+    <style>
+      {{ 'critical.css' | inline_asset_content }}
+    </style>
+    
+    {% # Load and preload the critical JS %}
+    {% comment %} {{ 'critical.js' | asset_url | script_tag }} {% endcomment %}
+    <script>
+      {{ 'critical.js' | inline_asset_content }}
+    </script>
 
     {% # Social, title, etc. %}
     {% render 'meta-tags' %}
+
 
     {{ content_for_header }}
   </head>
@@ -33,4 +43,6 @@
 
     {% sections 'footer-group' %}
   </body>
+  
+
 </html>
